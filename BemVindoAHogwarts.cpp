@@ -1,3 +1,13 @@
+/*
+Escreva uma Classe Bruxo que possui os atributos nome  casa. Forneça métodos set e get. 
+O método setCasa deverá validar a casa. Forneça um método display que mostre na tela os atributos 
+de uma forma visualmente agradável.
+
+O que é encapsulamento?
+>> Encapsulamento consiste em tornar certos dados de uma classe privados visando a proteção dos mesmos,
+para que não sejam acessados por qualquer pessoa por exemplo.
+*/
+
 #include <iostream>
 #include <string>
 
@@ -19,8 +29,6 @@ class Bruxo{
         this-> casa = casa;
     };
 
-    
-    
     string getNome(){
         return nome;
     };
